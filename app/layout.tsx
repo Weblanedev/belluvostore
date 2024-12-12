@@ -18,7 +18,7 @@ import { IUser } from '@/lib/definitions'
 import { Metadata } from 'next/types'
 
 export const metadata: Metadata = {
-  title: "Belluvostore - Best Online Shopping Store | Free Shipping | 100% Refund",
+  title: "Belluvostore - Best Online Shopping Store | Shipping | 100% Refund",
   description: "Shop online for Electronics, Fashion, Home & Kitchen, Beauty & Grooming, Health, Toys, Baby, Books, Sports, etc. on desertcart. ✓Secure Shopping Platform ✓70M+ Products ✓FREE Delivery ✓FREE Returns",
   // icons: {
   //   icon: [

@@ -6,8 +6,8 @@ export const Logo = () => {
 			src=""
 			// src="/next.svg"
 			alt="logo"
-			width={120}
-			height={80}
+			width={0}
+			height={0}
 			className="max-w-[5rem] dark:invert dark:filter"
 		/>
 	)

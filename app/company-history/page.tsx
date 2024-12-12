@@ -1,37 +1,45 @@
-import { Metadata } from "next"
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Our Company History  Store",
-	description:
-		"Learn about our Store, from our humble beginnings to our current status as a global leader in the industry.",
-}
+  title: "Our Company History | Store",
+  description:
+    "Learn about our Store, from our humble beginnings to our current status as a global leader in the industry.",
+};
 
 export default function CompanyHistory() {
-	return (
-		<>
-			<hr />
-			<div className="container mb-20 mt-10">
-				<h1 className="mb-5 text-4xl font-bold text-gray-900 dark:text-gray-300">Our Company History</h1>
-				<section className="mb-8">
-					<h2 className="mb-4 text-2xl font-bold text-gray-800 dark:text-gray-300">Inception</h2>
-					<p className="text-gray-500 dark:text-gray-400">
-						Welcome to the journey of Belluvo – a tale of passion, innovation, and unwavering
-						commitment. Our story began with a simple yet powerful
-						vision: to provide people with high-quality, affordable products that enhance their lives.
-					</p>
-				</section>
+  return (
+    <>
+      <hr />
+      <div className="container mb-20 mt-10">
+        <h1 className="mb-5 text-4xl font-bold text-gray-900 dark:text-gray-300">
+          Our Company History
+        </h1>
+        <section className="mb-8">
+          <h2 className="mb-4 text-2xl font-bold text-gray-800 dark:text-gray-300">
+            Inception
+          </h2>
+          <p className="text-gray-500 dark:text-gray-400">
+            Welcome to the journey of Belluvo – a tale of passion, innovation,
+            and unwavering commitment. Our story began with a simple yet
+            powerful vision: to provide people with high-quality, affordable
+            products that enhance their lives.
+          </p>
+        </section>
 
-				<section className="mb-8">
-					<h2 className="mb-4 text-2xl font-bold text-gray-800 dark:text-gray-300">Early Strides</h2>
-					<p className="text-gray-500 dark:text-gray-400">
-						In the early years, Belluvo navigated the dynamic landscape of online retail with
-						determination and a thirst for excellence. Our dedicated team worked tirelessly to establish a
-						solid foundation, laying the groundwork for what would become a transformative force in the
-						e-commerce industry.
-					</p>
-				</section>
+        <section className="mb-8">
+          <h2 className="mb-4 text-2xl font-bold text-gray-800 dark:text-gray-300">
+            Early Strides
+          </h2>
+          <p className="text-gray-500 dark:text-gray-400">
+            In the early years, Belluvo navigated the dynamic landscape of
+            online retail with determination and a thirst for excellence. Our
+            dedicated team worked tirelessly to establish a solid foundation,
+            laying the groundwork for what would become a transformative force
+            in the e-commerce industry.
+          </p>
+        </section>
 
-				{/* <section className="mb-8">
+        {/* <section className="mb-8">
 					<h2 className="mb-4 text-2xl font-bold text-gray-800 dark:text-gray-300">
 						Milestones and Achievements
 					</h2>
@@ -106,8 +114,7 @@ export default function CompanyHistory() {
 						Thank you for being a crucial part of our history.
 					</p>
 				</section> */}
-			</div>
-
-		</>
-	)
+      </div>
+    </>
+  );
 }

@@ -1,5 +1,5 @@
 "use client";
-import { Logo } from "@/lib/components/shared/logo";
+// import { Logo } from "@/lib/components/shared/logo";
 import { Cart } from "@/lib/components/shared/cart";
 import { UserMenu } from "@/lib/components/shared/layout/header/user-menu";
 import { DarkModeToggle } from "@/lib/components/shared/layout/header/dark-mode-toggle";
