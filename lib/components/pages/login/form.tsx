@@ -35,7 +35,6 @@ export const LoginForm = () => {
                         window.location.href = '/profile';
                     });
             } catch (error) {
-                // console.error('Login failed:', error);
                 router.push('/');
             }
         }

@@ -16,7 +16,6 @@ export const Header = () => {
   const categories: TCategories = useSelector(
     (state: RootState) => state.categories.categories,
   );
-	console.log('categories', categories)
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const [currentCategory, setCurrentCategory] = useState("");

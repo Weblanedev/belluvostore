@@ -8,7 +8,8 @@ export const Logo = () => {
 			alt="logo"
 			width={0}
 			height={0}
-			className="max-w-[5rem] dark:invert dark:filter"
+			className=""
+			// className="max-w-[5rem] dark:invert dark:filter"
 		/>
 	)
 }
