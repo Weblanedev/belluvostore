@@ -166,7 +166,8 @@ export const ProductPage = () => {
 
     const setUrlParams = (filters: IFilters) => {
         const checkedCategories = filters.categories.filter((x) => x.checked);
-        const params = new URLSearchParams(searchParams);
+        const params = new URLSearchParams(searchParams.toString());
+        // const params = new URLSearchParams(searchParams);
 
         if (checkedCategories.length > 0) {
             params.set('category', checkedCategories.map((x) => x.value).join(','));
