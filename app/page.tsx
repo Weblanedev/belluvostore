@@ -1,6 +1,6 @@
 import { store } from '@/lib/store'
 import { Metadata } from 'next'
-import Link from 'next/link'
+// import Link from 'next/link'
 import Image from "next/image";
 
 import { Banner } from '@/lib/components/product/banner'

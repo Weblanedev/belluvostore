@@ -83,7 +83,7 @@ export const Card = ({ product, grid = true }: { product: IProduct, grid?: boole
                         onClick={() => purchase(product.title)}
                         className="rounded bg-gray-800 p-3 text-xs font-bold uppercase text-white"
                     >
-                        Purchase
+                        Order now
                     </button>
                 </div>
             </div>
