@@ -23,7 +23,7 @@ export const Features = () => {
 							</h1>
 
 							<p className="mt-2 text-gray-500 dark:text-gray-400">
-								This product is designed to maximize customer satisfaction by meeting your customers'
+								Products designed to maximize customer satisfaction by meeting your customers'
 								needs and desires. Crafted with high-quality materials and built to last, it's the perfect
 								choice for leaving your customers delighted!
 							</p>
