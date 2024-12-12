@@ -44,7 +44,7 @@ export const Banner = () => {
 								// onClick={scrollToProducts}
 								className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none active:bg-rose-500 sm:w-auto"
 							>
-								Get Started
+								Start Shopping
 							</button>
 							</Link>
 						</div>

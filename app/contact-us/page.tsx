@@ -170,7 +170,7 @@ const Contact = () => {
               <img src='/images/location.png' className='rounded-[12px]' alt=""></img>
             </div>
             <h4 className="text-[20px] leading-[24px] font-medium text-rose-500">
-            2 Dynamic Estate Off Orchid Road Lekki Phase 2.</h4>
+            Customer Success: 1 Adedeji Adekola Street Lekki Phase 1, Lagos Nigeria.</h4>
           </div>
           <div className="flex gap-5 items-start justify-center">
             <img src={"/images/mail.png"} alt="" className="w-6 pt-1" />
