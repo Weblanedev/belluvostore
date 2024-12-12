@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-	title: 'Privacy Policy | Fake Store',
-	description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+	title: 'Privacy Policy |Store',
+	description: "",
 };
 
 export default function Page() {

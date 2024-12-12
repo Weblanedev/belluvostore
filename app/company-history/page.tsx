@@ -1,9 +1,9 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-	title: "Our Company History | Fake Store",
+	title: "Our Company History  Store",
 	description:
-		"Learn about the history of Fake Store, from our humble beginnings to our current status as a global leader in the industry.",
+		"Learn about our Store, from our humble beginnings to our current status as a global leader in the industry.",
 }
 
 export default function CompanyHistory() {

@@ -2,8 +2,8 @@ import { Cart as CartPage } from "@/lib/components/pages/cart/cart";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Cart | Fake Store",
-	description: "Shopping cart page for Fake Store",
+	title: "Store",
+	description: "Shopping cart page for your Store",
 }
   
 export default function Cart() {

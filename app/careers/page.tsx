@@ -2,8 +2,8 @@ import { Metadata } from "next"
 import { TJobs } from "@/lib/definitions"
 
 export const metadata: Metadata = {
-	title: "Careers | Fake Store",
-	description: "Fake Store is a place where you can find all the products you need.",
+	title: " Store",
+	description: "Our Store is a place where you can find all the products you need.",
 }
 
 

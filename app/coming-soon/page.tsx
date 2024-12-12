@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-	title: "Coming Soon | Fake Store",
+	title: "Coming Soon Store",
 	description: "This page is not available right now, but it will be soon. Stay tuned!",
 }
 
