@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Footer = ({ categories }: { categories: TCategories }) => {
   return (
     <>
-      <footer className="mt-auto bg-cyan-700 py-16">
+      <footer className="mt-auto bg-rose-950 py-16">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
