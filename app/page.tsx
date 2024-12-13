@@ -64,13 +64,23 @@ export default async function Home() {
           <div className="before:-z-50 before:bg-none md:before:absolute md:before:-bottom-24 md:before:-right-16 md:before:h-full md:before:w-full md:before:bg-[url('/videobg.png')] md:before:bg-contain md:before:bg-right-bottom md:before:bg-no-repeat lg:before:-bottom-20 lg:before:-right-12 xl:before:-right-5">
             <Image
               src={
+                "https://images.pexels.com/photos/5632373/pexels-photo-5632373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              }
+              width={300}
+              height={300}
+              alt="e-commerce shopping"
+              className="w-full rounded-lg object-cover md:w-[90%] xl:w-4/5"
+            />
+
+            {/* <Image
+              src={
                 "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               }
               width={300}
               height={300}
               alt="core features"
               className="w-full rounded-lg object-cover md:w-[90%] xl:w-4/5"
-            />
+            /> */}
           </div>
         </div>
       </section>
