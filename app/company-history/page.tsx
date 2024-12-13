@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Company History | Store",
+  title: "Our Company History",
   description:
     "Learn about our Store, from our humble beginnings to our current status as a global leader in the industry.",
 };

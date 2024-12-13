@@ -20,20 +20,20 @@ import { Metadata } from 'next/types'
 export const metadata: Metadata = {
   title: "Belluvostore - Best Online Shopping Store | Shipping | 100% Refund",
   description: "Shop online for Electronics, Fashion, Home & Kitchen, Beauty & Grooming, Health, Toys, Baby, Books, Sports, etc. on desertcart. ✓Secure Shopping Platform ✓70M+ Products ✓FREE Delivery ✓FREE Returns",
-  // icons: {
-  //   icon: [
-  //     {
-  //       media: '(prefers-color-scheme: light)',
-  //       url: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
-  //       href: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
-  //     },
-  //     {
-  //       media: '(prefers-color-scheme: dark)',
-  //       url: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
-  //       href: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
-  //     },
-  //   ],
-  // },
+  icons: {
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
+        href: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
+        href: 'https://th.bing.com/th/id/OIP.lWQt24n04e7pQp7cJJA5EgAAAA?rs=1&pid=ImgDetMain',
+      },
+    ],
+  },
 };
 
 export default async function RootLayout({
@@ -61,7 +61,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <head><link rel="icon" href="https://th.bing.com/th/id/R.76c9e1ddc22ebd68899efdf5e0f110c0?rik=018ILKcUCM%2bBKQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2%2fG-Letter-PNG-Image-File.png&ehk=xMyZ6uZtW0TLhnMlEu7XAIEX%2fWdgKHrmraKT4dZERLs%3d&risl=&pid=ImgRaw&r=0" /></head>
+      <head><link rel="icon" href="" /></head>
       <body className={inter.className}>
         <StoreProvider preloadedState={{
           categories: {
